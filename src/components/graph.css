@@ -1,0 +1,47 @@
+/* Basic styles for the container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Responsive grid layout */
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.graph-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.graph-title {
+    margin-bottom: 1rem;
+}
+
+.graph {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive styles for select inputs */
+.form-control {
+    width: 100%;
+}
+
+/* Button styling */
+.btn {
+    margin: 0 auto;
+}
+
+/* Responsive text center */
+.text-center {
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .col-md-6 {
+        margin-bottom: 1rem;
+    }
+}
